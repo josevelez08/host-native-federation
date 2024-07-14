@@ -59,6 +59,15 @@ ng serve
 ```
 Navigate to http://localhost:4200 in your web browser to view the application.
 
+
+You can add remote applications at runtime by editing the federation.manifest.json file. For example:
+
+```
+{
+ "remote": "http://localhost:4201/remoteEntry.json"
+}
+```
+
 For running other microfrontend apps or modules, follow their specific instructions (e.g., they might be running on different ports).
 
 To build the project for production, use:
